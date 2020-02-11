@@ -33,6 +33,9 @@ app.get('/:query', async function (req, res) {
  
 })
 
-app.listen(3000, function () {
+const port = process.env.PORT || 3000;
+const ip = process.env.IP;
+
+app.listen(port, ip, function () {
   console.log('Example app listening on port 3000!');
 });

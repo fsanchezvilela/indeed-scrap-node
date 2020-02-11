@@ -23,7 +23,7 @@ app.get('/:query', async function (req, res) {
   try {
     let {query} = req.params;
     query = query.replace(/\-/g," ");
-    console.log(query);
+    console.log("buscando categoria:",query);
     const queryOptions = await (getQuery(query))
     const lol = await indeed.query(queryOptions);
     res.json(lol);

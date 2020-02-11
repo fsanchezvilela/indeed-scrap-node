@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "indeed-scraper": "^3.0.2"
+    "indeed-scraper": "^3.0.2",
+    "memory-cache": "^0.2.0"
   }
 }

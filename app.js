@@ -27,12 +27,12 @@ function getQuery(query){
     host: 'www.indeed.es',
     query: `${query}`,
     city: 'Madrid',
-    radius: '40',
+    radius: '100',
     level: '',
-    jobType: 'fulltime',
-    maxAge: '7',
+    jobType: '',
+    maxAge: '',
     sort: 'date',
-    limit: 100
+    limit: 50
   };
   return queryOptions;
 }
